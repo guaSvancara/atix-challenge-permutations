@@ -1,0 +1,31 @@
+{
+  "name": "atix-challenge-permutations",
+  "version": "0.0.1",
+  "description": "Create permutations of strings composed of 0, 1 and * characters",
+  "main": "app.js",
+  "scripts": {
+    "app": "node app\\app.js",
+    "lint": "eslint app",
+    "lint-tests": "eslint tests",
+    "lint-fix": "eslint app --fix",
+    "lint-tests-fix": "eslint tests --fix",
+    "tests": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guaSvancara/atix-challenge-permutations.git"
+  },
+  "author": "Guadalupe Lucero Svancara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guaSvancara/atix-challenge-permutations/issues"
+  },
+  "homepage": "https://github.com/guaSvancara/atix-challenge-permutations#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-google": "^0.14.0",
+    "jest": "^28.1.1",
+    "nodemon": "^2.0.16"
+  }
+}
