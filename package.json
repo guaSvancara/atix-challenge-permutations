@@ -4,7 +4,7 @@
   "description": "Create permutations of strings composed of 0, 1 and * characters",
   "main": "app.js",
   "scripts": {
-    "app": "node app\\app.js",
+    "app": "node app/app.js",
     "lint": "eslint app",
     "lint-tests": "eslint tests",
     "lint-fix": "eslint app --fix",
